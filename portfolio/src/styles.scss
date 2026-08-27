@@ -1,0 +1,26 @@
+html {
+    scroll-behavior: smooth;
+}
+
+#root {
+    display: flex;
+    width: 100%;
+    flex-grow: 1;
+    min-height: 100vh;
+    font-family: 'Geist', sans-serif;
+}
+
+body {
+    display: flex;
+    margin: 0;
+    width: 100%;
+    flex-grow: 1;
+    font-family: 'Geist', sans-serif;
+}
+
+.page-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+

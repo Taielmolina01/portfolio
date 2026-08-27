@@ -1,0 +1,49 @@
+@use './../../variables' as vars;
+
+.roadmap-item-container {
+    display: flex;
+    gap: 6px;
+    flex-direction: row;
+    align-items: center;
+    
+    a {
+        text-decoration: none;
+        color: vars.$grey-3;
+        font-size: 14px;
+    }
+    
+    &:hover {
+        a {
+        color: black;
+        cursor: pointer;
+        }
+
+        .bar {
+            width: 40px;
+            background-color: black;
+        }
+    }
+
+    &.active {
+        a {
+            color: black;
+        }
+
+        .bar {
+            width: 40px;
+            background-color: black;
+        }
+    }
+}
+
+.bar {
+    display: flex;
+    height: 1px;
+    width: 30px;
+    background-color: vars.$grey-1;
+    transition: width 180ms ease, background-color 180ms ease;
+
+    &:hover {
+        background-color: black;
+    }
+}

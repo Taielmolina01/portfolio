@@ -1,0 +1,127 @@
+@use './../../variables' as vars;
+
+.body-container {
+    background-color: vars.$primary-color;
+    width: 100%;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.body-subcontainer {
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    margin: 100px 0;
+    gap: 50px;
+
+    section:first-child {
+        display: flex;
+        position: sticky;
+        top: 75px;
+        flex-direction: column;
+        gap: 30px;
+        width: 50%;
+        align-self: flex-start;
+    }
+
+    section:nth-child(2) {
+        display: flex;
+        flex-direction: column;
+        gap: 100px;
+    }
+}
+
+.body-container section {
+    width: 100%;
+    padding: 0 0;
+
+    h2 {
+        font-size: 42px;
+    }
+}
+
+button {
+    display: flex;
+    padding: 10px 15px;
+    background-color: vars.$blue-1;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-family: 'Geist', sans-serif;
+}
+
+h1,
+h2,
+h3 {
+    margin: 0;
+    font-family: 'Newsreader', serif;
+}
+
+p {
+    margin: 0;
+}
+
+.map-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 6px;
+
+    .map {
+        height: 20px;
+    }
+}
+
+.available-container {
+    display: flex;
+    padding: 6px 10px;
+    border-radius: 10px;
+    border: 1px solid vars.$secondary-color;
+    max-width: fit-content;
+}
+
+
+.download-container {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    margin: 0;
+    max-width: fit-content;
+    padding: 8px 10px;
+
+    a {
+        text-decoration: none;
+        color: vars.$primary-color;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 6px;
+        
+        .download {
+            height: 20px;
+        }
+    }
+}
+
+.socialmedia-container {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+
+    a {
+        height: 24px;
+    }
+}
+
+.icon {
+    height: 24px;
+}
+
+.roadmap-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}

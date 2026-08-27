@@ -1,0 +1,73 @@
+@use './../../variables' as vars;
+
+.projects-container {
+    h3 {
+        font-size: 28px;
+        margin: 0;
+    }
+
+    h4 {
+        font-weight: normal;
+    }
+
+    div {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    margin: 10px 0;
+} 
+
+.project-item {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    padding: 15px 20px;
+    border-radius: 6px;
+    background-color: vars.$grey-2;
+    border: 2px solid vars.$grey-1;
+
+    h5 {
+        margin: 0;
+        padding: 0;
+        font-size: 20px;
+    }
+
+    h6 {
+        margin: 0;
+        padding: 0;
+        font-size: 16px;
+    }
+
+    ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        li a {
+            text-decoration: none; 
+            color: vars.$blue-2;
+        }
+        li a:hover {
+            color: vars.$blue-3;
+        }
+    }
+
+    .stack-container {
+        display: flex;
+        flex-direction: row;
+        gap: 6px;
+    }
+
+    .stack-container div {
+        padding: 4px 8px;
+        border-radius: 8px;
+        background-color: vars.$grey-1;
+        color: white;
+    }
+
+    p {
+        margin: 0;
+    }
+}
+

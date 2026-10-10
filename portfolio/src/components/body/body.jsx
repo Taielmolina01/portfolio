@@ -79,15 +79,25 @@ function Body() {
                 'PRESENT',
                 'Full Stack Developer',
                 'Alkemy',
-                'End-to-end feature development',
-                ['React', 'Node', 'Nest', 'MariaDB', 'MongoDB']
+                `Currently working on full-stack applications, providing bug fixes, maintaining production systems, and identifying performance bottlenecks to improve existing features.
+Key achievements:
+
+- Improved the logging and exception-handling strategy across NestJS backend services, increasing error clarity and traceability while preventing unhandled exceptions from causing service instances to terminate unexpectedly.
+- Designed a solution for error handling and retry management in Amazon SQS consumers, introducing retry policies and failed-message handling to prevent infinite reprocessing loops and improve system resilience.
+- Strengthened backend observability and fault tolerance by standardizing exception handling across both HTTP and asynchronous messaging flows, making production issues easier to diagnose and reducing the impact of unexpected failures.`,
+                ['React', 'Node', 'Nest', 'MariaDB', 'MongoDB', 'AWS']
             ),
             new ExperienceItem(
                 'MAR 2023',
                 'PRESENT',
                 'Teaching Assistant',
                 'Universidad de Buenos Aires',
-                'Teaching about algorithms and data structures',
+                `First year course in the Software Engineering degree at Universidad de Buenos Aires (UBA).  
+The main subjects of the course are:
+- Divide and conquer.
+- Computational complexity.
+- Implementation of ADTs (stack, queue, linked-list, trees, BST, heap, graphs).
+- Design and implementation of algorithms using these data structures.`,
                 ['Teaching', 'Algorithms', 'Data structures', 'Computational complexity']
             )
             ]
@@ -100,15 +110,25 @@ function Body() {
                 'PRESENTE',
                 'Full Stack Developer',
                 'Alkemy',
-                'Desarrollo de funcionalidades de extremo a extremo',
-                ['React', 'Node', 'Nest', 'MariaDB', 'MongoDB']
+                `Doy soporte a aplicaciones full-stack, resolviendo bugs, manteniendo sistemas en producción e identificando cuellos de botella de performance para mejorar funcionalidades existentes.
+Principales logros:
+
+- Mejoré la estrategia de logging y manejo de excepciones en los servicios backend con NestJS, aumentando la claridad y trazabilidad de los errores y evitando que las excepciones no controladas terminaran inesperadamente con las instancias del servicio.
+- Diseñé una solución de manejo de errores y reintentos en consumidores de Amazon SQS, incorporando políticas de reintento y tratamiento de mensajes fallidos para evitar bucles infinitos de reprocesamiento y mejorar la resiliencia del sistema.
+- Fortalecí la observabilidad y tolerancia a fallos del backend estandarizando el manejo de excepciones tanto en flujos HTTP como en mensajería asíncrona, facilitando el diagnóstico de problemas en producción y reduciendo el impacto de fallos inesperados.`,
+                ['React', 'Node', 'Nest', 'MariaDB', 'MongoDB', 'AWS']
             ),
             new ExperienceItem(
                 'MAR 2023',
                 'PRESENTE',
                 'Ayudante de cátedra',
                 'Universidad de Buenos Aires',
-                'Enseñanza sobre algoritmos y estructuras de datos',
+                `Materia de primer año de la carrera de Ingeniería en Informática de la Universidad de Buenos Aires (UBA).
+Los principales temas del curso son:
+- Divide and conquer.
+- Complejidad computacional.
+- Implementación de TADs (pila, cola, lista enlazada, árboles, BST, heap, grafos).
+- Diseño e implementación de algoritmos usando estas estructuras de datos.`,
                 ['Docencia', 'Algoritmos', 'Estructuras de datos',  'Complejidad computacional']
             )
             ]
@@ -147,6 +167,7 @@ function Body() {
             [
             'RabbitMQ', 
             'Kafka',
+            'SQS'
             ]
         )
     ]

@@ -30,8 +30,25 @@
         gap: 6px;
     }
 
+    p {
+        margin: 8px 0 0;
+        line-height: 1.4;
+    }
+
     h5 {
         color: vars.$grey-1;
+    }
+}
+
+.description-container {
+    margin: 8px 0 0;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+
+    li {
+        line-height: 1.4;
     }
 }
 
